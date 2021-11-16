@@ -5,6 +5,7 @@ export const Container = styled.div`
   align-items: center;
   button {
     margin: 0 0 10px 0;
+    color: black;
   }
 `;
 export const List = styled.div`
