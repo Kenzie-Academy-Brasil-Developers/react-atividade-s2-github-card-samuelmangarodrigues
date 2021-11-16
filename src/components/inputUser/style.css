@@ -1,0 +1,31 @@
+.borderRed {
+  background-color: rgb(236, 208, 208);
+  width: 300px;
+  margin: 0 10px 10px 0;
+  height: 32px;
+  border: 1px solid red;
+  border-radius: 3px;
+  color: black;
+}
+input::placeholder {
+  font-size: 18px;
+  color: red;
+}
+.borderNormal {
+  width: 300px;
+  color: black;
+  margin: 0 10px 10px 0;
+  height: 32px;
+  border: 1px solid white;
+  border-radius: 3px;
+}
+.borderNormal:hover {
+  border-color: lightblue;
+  transition: 0.3s;
+}
+@media (min-width: 320px) and (max-width: 423px) {
+  input.borderNormal,
+  input.borderRed {
+    width: 200px;
+  }
+}
